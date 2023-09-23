@@ -87,10 +87,6 @@ let diff=dets.clientY - elem.getBoundingClientRect().top;
 console.log(diff)
 
 
-document.querySelectorAll(".elem img").forEach(function(img) {
-  img.style.opacity = 0;
-});
-
 imgdiff= dets.clientX - root;
 root=dets.clientX;
 
