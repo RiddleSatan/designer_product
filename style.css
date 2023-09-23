@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(203, 157, 8);
+}
+
+.minicircle {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 99999;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.65s;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 12px 40px;
+  margin-top: 0;
+}
+
+.nav a {
+  justify-content: space-between;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.heading {
+  /* color: #a3a3a3; */
+  color: black;
+  margin-left: 35px;
+  margin-top: 30px;
+  padding-bottom: 0;
+}
+
+.heading h1 {
+  font-size: 9vw;
+}
+
+.secondheading h1 {
+  font-size: 9vw;
+  margin-left: 110px;
+}
+
+.secondheading {
+  /* color:#a3a3a3; */
+  color: green;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.secondheading h5 {
+  text-align: right;
+  color: #fff;
+}
+
+.heading h1,
+.secondheading h1,
+h5 {
+  line-height: 1;
+}
+.smallheading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 8vw;
+  margin-right: 30px;
+}
+.smallheading h5 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1vw;
+  text-align: right;
+  margin-top: 1.2vw;
+}
+
+.herofooter {
+  text-transform: uppercase;
+  padding: 0 2vw;
+  position: relative;
+  width: 100%;
+  bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.herofooter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.herofooter .iconset .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconset {
+  display: flex;
+  gap: 5px;
+}
+.herofooter .iconset .circle i {
+  color: black;
+}
+
+.second {
+  padding: 4vh;
+  width: 100%;
+  height: 100vh;
+  padding-top: 200px;
+  color: #fff;
+  padding-right: 120px;
+  margin-bottom: 88px;
+}
+
+/* .second .elem {
+  position: relative;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 0 0;
+}
+.elem img {
+  opacity: 0;
+  position: absolute;
+  height: 150%;
+  z-index: 999;
+} */
+
+.second .elem {
+  position: relative;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 0 0;
+  padding-right: ;
+}
+
+
+
+.elem img {
+  opacity: 0;
+  position: absolute;
+  height: 150%;
+  z-index: 999;
+}
+
+
+.elem h1 {
+  font-size: 6.8vw;
+  margin: 4vh 0;
+}
+.elemlast {
+  border-bottom: 1px solid black;
+}
+
+
+.third {
+  padding-top: 13vw;
+  padding-left: 38vw;
+  padding-right: 15vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.third img {
+  height: 280px;
+  margin-top: -15px;
+}
+
+.third .abouttext {
+  padding-right: 30px;
+}
+
+.abouttext p {
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.abouttext h5 {
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.abouttext a {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background-color: black;
+  padding: 4px 14px;
+}
+
+.subs {
+  margin-top: 150px;
+  padding-left: 30px;
+  margin-bottom: 130px;
+}
+.subs h5 {
+  opacity: 0.6;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.subs h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.footer {
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerleft {
+  font-size: 18px;
+  display: flex;
+  gap: 30px;
+}
+
+.footerright {
+  display: flex;
+  gap: 40px;
+}
+.footerright a {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+}
+
+.bounding .boundingelem {
+  transform: translateY(100%);
+}
