@@ -90,13 +90,11 @@ console.log(diff)
 imgdiff= dets.clientX - root;
 root=dets.clientX;
 
-console.log(imgdiff);
-
 gsap.to(elem.querySelector("img"),
 {
   opacity:1,
   ease:Power1,
-  top:diff-140,
+  top:diff,
   left:dets.clientX,
   rotate: gsap.utils.clamp(-12, 12, imgdiff),
   
